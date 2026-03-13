@@ -41,7 +41,7 @@ def build_vocab(tokens):
     return vocab , word_to_idx , idx_to_word
 
 # Build an NGram Model
-def train_model(tokens, word_to_idx, n=2):
+def train_model(tokens, word_to_idx):
 
     vocab_size = len(word_to_idx)
 
